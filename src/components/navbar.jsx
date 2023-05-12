@@ -8,7 +8,7 @@ import { FaSearch } from 'react-icons/fa';
 
 const Navbar = ()=> {
   return (
-    <nav className=" pl-20 pt-12 pr-20 px-2">
+    <nav className=" pl-20 pt-12 pr-20 px-2 ">
       <div className="container mx-auto px-6 py-4 bg-pink-50">
         <div className="flex items-center justify-between">
           <div className="flex items-center ">
@@ -47,8 +47,8 @@ const Navbar = ()=> {
               
               <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Current</a>
               <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-              <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium bg-pink-300"><button >Term</button></a>
-              <button className="md:hidden rounded-lg ml-4 p-2 text-gray-800 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-opacity-50">
+              <a href="#" className="text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black"><button >Term</button></a>
+              <button className="md:hidden rounded-lg ml-4 p-2 text-white hover:text-white-800 focus:outline-none focus:ring-2 focus:ring-white-800 focus:ring-opacity-50">
              
              term
            </button>

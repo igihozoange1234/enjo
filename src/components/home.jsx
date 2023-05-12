@@ -7,7 +7,7 @@ const Home =()=>{
 
 
     return(<>
-    <div className="items-center pr-20 pl-20">
+    <div className="items-center pr-20 pl-20 ">
        <div className="container mx-auto py-10  px-4 bg-pink-50 ">
   <p className="grid md:grid-cols-3 "><img src="https://plus.unsplash.com/premium_photo-1661436508199-2aec1f0ee147?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZmFtaWx5JTIwaG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" 
   className="ml-30 rounded-full h-60 w-60 " />
@@ -153,7 +153,7 @@ elusinod tempor <br /> incididunt ut labore</p>
         </div>
       </div>
       <div className="relative w-1/3 h-64">
-        <img className="object-cover w-70 h-full" src="https://picsum.photos/id/239/400/400" alt="Image 3" />
+        <img className="object-cover w-70 h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLsI83DkgdMOaeq3RwWc2ufSmsxDoa0YshEA&usqp=CAU" alt="Image 3" />
         <div className="absolute inset-0 flex items-center justify-center px-2 pt-24 py-12">
           <p className="text-white ml-2 ">Lorem ipsum dolor sit amet, <br /> consectetur <br /><br />
 Lorem ipsum dolor sit amet <br />
@@ -166,15 +166,23 @@ elusinod tempor incididunt <br /> ut labore</p>
         
     </div>
     
-
-    <div><h1 className="text-black font-bold text center">references</h1>
+<div className="bg-gray-100">
+    <div className="flex justify-center pt-24">
+      <div className="w-80 p-6 bg-white rounded-lg shadow- pt-12 py-12">
+        
       
-      <p>When I arrived in Germany, I felt like my first day in kindergarten. 
+        <p className="text-center text-gray-700 text-sm">
+        When I arrived in Germany, I felt like my first day in kindergarten. 
       I didn't know anyone, nor did I know what to do. The Navigator onboarding team
        not only arranged my appointments, they even took me there. From my appointment
         with the reception center to looking for an apartment or applying for health insurance. 
         I didn't have to worry about anything. They had very good knowledge of what was required for
-         my new start in Hamburg. I was able to focus on my new job while they took care of everything else.</p></div>
+         my new start in Hamburg. I was able to focus on my new job while they took care of everything else.
+         <p className="text-center text-lg font-bold mb-2">Healing Paragraph</p>
+        </p>
+      </div>
+      </div>
+    </div>.
          </div>
     </>
     )
