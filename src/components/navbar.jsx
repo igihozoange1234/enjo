@@ -8,8 +8,8 @@ import { FaSearch } from 'react-icons/fa';
 
 const Navbar = ()=> {
   return (
-    <nav className=" pl-20 pt-12 pr-20 px-2 ">
-      <div className="container mx-auto px-6 py-4 bg-pink-50">
+    <nav>
+      <div className="max-w-6xl mx-auto px-6 py-4 bg-pink-50">
         <div className="flex items-center justify-between">
           <div className="flex items-center ">
           
@@ -33,25 +33,22 @@ const Navbar = ()=> {
       <input
         type="text"
         placeholder="Search"
-        className="w-full outline-none mr-2"
+        className="w-12  mr-2"
       />
-      <FaSearch className="w-6 h-6 text-gray-500" />
+      <FaSearch className="w-4 h-4 text-gray-500" />
     </div>
                 
           </div>
           <div className="flex items-center">
             <div className="hidden md:flex md:items-center md:ml-6">
               <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">About us</a>
+              <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">About </a>
               <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
               
               <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Current</a>
               <a href="#" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
               <a href="#" className="text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-black"><button >Term</button></a>
-              <button className="md:hidden rounded-lg ml-4 p-2 text-white hover:text-white-800 focus:outline-none focus:ring-2 focus:ring-white-800 focus:ring-opacity-50">
-             
-             term
-           </button>
+              
             
             </div>
             
